@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <style>
+    .h1{
+        text-align: center;
+        font-size: larger;
+        }
+        .imagem{
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .natal{
+            width: 20px;
+        }
+        .nyan{
+            height: 250px;
+            width: 100%;
+        }
+        .mesnovembro{
+            color: grey;
+        }
+        .anonovo{
+            width: 16px;
+        }
+        .jan{
+            color: gray;
+        }
+        .body{
+            color: black;
+        }
+        #feriado:hover{
+            background-color: lightskyblue;
+        }
+        #vespera:hover{
+            background-color: rgb(209, 209, 98);
+        }
+        #dom:hover{
+            background-color: lightgreen;
+        }
+        #seg:hover{
+            background-color: rgb(238, 216, 144);
+        }
+        #ter:hover{
+            background-color: rgb(143, 241, 192);
+        }
+        #qua:hover{
+            background-color: rgb(150, 144, 238);
+        }
+        #qui:hover{
+            background-color: rgb(66, 197, 248);
+        }
+        #sex:hover{
+            background-color: rgb(253, 175, 103);
+        }
+        #sab:hover{
+            background-color: rgb(250, 100, 237);
+        }
+    </style>
+</head>
+<body class="body">
+    <h1 class="h1">Dezembro 2005</h1>
+    <table class="imagem" 
+            border="1"
+            align="center">
+                <tr>
+                    <th colspan="7">
+                        <img class="nyan" src="nyancat.gif" alt="nyangif">
+                    </th>
+                </tr>
+            <tr>
+            <th id="dom">Domingo</th>
+            <th id="seg">Segunda</th>
+            <th id="ter">Terça</th>
+            <th id="qua">Quarta</th>
+            <th id="qui">Quinta</th>
+            <th id="sex">Sexta</th>
+            <th id="sab">Sábado</th>
+        </tr>
+        <tr>
+            <td class="mesnovembro">26</td>
+            <td class="mesnovembro">27</td>
+            <td class="mesnovembro">28</td>
+            <td class="mesnovembro">29</td>
+            <td class="mesnovembro">30</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td id="vespera">24</td>
+            <td id="feriado">25 <img class="natal" src="NATAL.jpg" alt="arvore"></td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td id="vespera">31</td>
+            <td id="feriado" class="jan">1 <img class="anonovo" src="ANONOVO.jpg" alt="fogos"></td>
+            <td class="jan">2</td>
+            <td class="jan">3</td>
+            <td class="jan">4</td>
+            <td class="jan">5</td>
+            <td class="jan">6</td>
+        </tr>
+    </table>
+</body>
+</html>
